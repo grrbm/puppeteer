@@ -746,7 +746,7 @@ export class ElementHandle<
     );
 
     if (!isNode) {
-      throw new Error(
+      console.warn(
         `JSHandle#uploadFile can only be used in Node environments.`
       );
     }
